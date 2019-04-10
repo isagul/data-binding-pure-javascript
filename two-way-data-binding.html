@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="two-way-data-binding.css" />
+</head>
+
+<body>
+    <h1>Two-way data binding in pure javascript</h1>
+    <div class="general">
+        <div class="input-field">
+            <label for="name">Enter your name:</label>
+            <input id="name" type="text" data-value="name" />
+            <label for="title">Enter your title:</label>
+            <input id="title" type="text" data-value="title" />
+        </div>
+
+        <div class="results">
+            <h1 data-binding="name"></h1>
+            <h2 data-binding="title"></h2>
+        </div>
+    </div>
+</body>
+<script src="./two-way-data-binding.js" type="text/javascript"></script>
+
+</html>

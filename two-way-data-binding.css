@@ -1,0 +1,22 @@
+.general {
+    width:50%;
+}
+
+.input-field {
+    margin-top:3%;
+    display: grid;
+    grid-template-columns: 150px max-content;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field input{
+    padding: 8px 0 8px 10px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+
+.results {
+    text-align: center;
+}
